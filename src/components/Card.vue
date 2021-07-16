@@ -72,7 +72,7 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
+<style scoped>
     .container-card{
         background: #fff;
         border-radius: 7px;

@@ -8,10 +8,6 @@
 </template>
 
 <style>
-    body{
-        background: #ebebeb;
-    }
-    
 
 </style>
 

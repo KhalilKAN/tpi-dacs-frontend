@@ -11,7 +11,6 @@
 
     </div>
 
-    
 </template>
 
 <script>
@@ -54,7 +53,7 @@ export default {
             this.reportes = await this.getReports();
         },
         redirigir(){
-            window.location = "/reportes/nuevo";
+            window.location = "https://khalilkan.github.io/tpi-dacs-frontend/reportes/nuevo";
         }
     }
     
@@ -70,8 +69,6 @@ export default {
     }
 
     .report{
-        /* border-radius: 5px; */
-        /* background: #fff; */
         margin: 5px;
         width: 350px;
     }
@@ -82,7 +79,6 @@ export default {
         border-radius: 25px;
         color: #fff;
         font-weight: 500;
-        /* width: 100%; */
         outline: none;
         transition: .03s;
         margin: 25px;

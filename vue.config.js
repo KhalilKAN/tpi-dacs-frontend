@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/tpi-dacs-frontend/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/tpi-dacs-frontend/'
+        : '/'
 }

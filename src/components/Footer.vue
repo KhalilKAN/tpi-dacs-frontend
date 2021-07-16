@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
+<style scoped>
     
     footer{
         position: absolute;

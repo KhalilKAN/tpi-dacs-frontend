@@ -43,7 +43,7 @@ export default {
 <style lang="postcss" scoped>
     
     nav{
-        @apply grid;
+        display: grid;
         height: 72px;
         width: 100%;
         background: #37bbed;
@@ -63,7 +63,8 @@ export default {
     }
 
     nav .btn{
-        @apply px-4;
+        padding-left: 1rem;
+        padding-right: 1rem;
         height: 44px;
         background-color: #fff;
         border-radius: 30px;

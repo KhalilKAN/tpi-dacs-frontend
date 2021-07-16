@@ -78,9 +78,9 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
+<style scoped>
     .container{
-        @apply grid;
+        display: grid;
         margin: 0 auto;
         max-width: 1200px;
         width: 90%; 

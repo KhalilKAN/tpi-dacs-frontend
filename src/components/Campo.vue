@@ -19,7 +19,7 @@ export default{
 }
 </script>
 
-<style lang="postcss" scoped>
+<style scoped>
     .container-campo{
         position: relative;
     }
